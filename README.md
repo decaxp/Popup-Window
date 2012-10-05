@@ -9,6 +9,7 @@ This is simple plugin where yo can create your windows. You can customise some p
 	
 Plugin 	realise only simlple javascript logic, so you have to create your element (with css of course) and call popupwindow method.
 Popupwindow method is once so if you want to call params you should do like this:
+
 	- to open window:
 	
 		$('.open').bind('click',function(){
@@ -58,8 +59,8 @@ Libraries
 Full example:
 		Here full example of using plugin. Index html:
 		
-<html>
-<head>
+	<html>
+	<head>
 	<style>
 		.right{	float:right;}	
 		#modalwindow{
@@ -100,8 +101,8 @@ Full example:
 				
 			});
 	</script>
-</head>
-<body >
+	</head>
+	<body >
 	<a class="open" href="#">!!!</a>
 	<a class="close" href="#">55</a>
 	<div id="modalwindow">
@@ -113,7 +114,7 @@ Full example:
 	</div>
 	text	text	text	text	text	text	text	text	text	text	text	text
 	text	text	text	text	text	texttext	text	text	text	text	text
-</body>
-</html>
+	</body>
+	</html>
 		
 		
